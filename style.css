@@ -1,17 +1,43 @@
 body {
+    margin: 0;
     font-family: Arial;
-    background-color: #f4f4f4;
+    background-color: #0f172a;
+    color: #e2e8f0;
 }
 
 header {
-    background: black;
-    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    background: #1e293b;
 }
 
 section {
-    background: white;
-    margin: 15px;
+    background: #1e293b;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h1, h2 {
+    color: #38bdf8;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+img {
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
     padding: 15px;
+    background: #020617;
+    margin-top: 20px;
 }
