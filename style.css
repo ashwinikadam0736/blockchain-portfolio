@@ -35,6 +35,17 @@ section:hover {
     transform: scale(1.02);
     transition: 0.3s;
 }
+section {
+    padding: 40px;
+    margin: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+section:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
 footer {
     text-align: center;
     padding: 15px;
